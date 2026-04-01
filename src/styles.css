@@ -1,0 +1,82 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar h1 {
+  color: #38bdf8;
+}
+
+/* Card */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Input */
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Button */
+.btn {
+  background: #38bdf8;
+  border: none;
+  padding: 10px 15px;
+  color: #0f172a;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* Todo list */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  background: #334155;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
